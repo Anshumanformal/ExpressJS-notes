@@ -6,6 +6,8 @@ const app = express();
 // res object - represents HTTP response that the Express App sends when it
 //              receives an HTTP request.
 
+//Syntax: app.get(route,callback->{<code>});
+
 app.get("/", (req, res) => {
   res.send(`<h1>Server can now respond.  Hello World!</h1>`);
   //   console.log("Hello from the server.");
