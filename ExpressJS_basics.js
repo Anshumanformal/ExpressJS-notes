@@ -24,3 +24,8 @@ app.get("/contactUs", (req, res) => {
 app.listen(8000, "127.0.0.1", () => {
   console.log("The server is listening.");
 });
+
+// next() -> This is passed as another parameter in the API methods
+//           which transfers the control to the next handler/callback function.
+
+
